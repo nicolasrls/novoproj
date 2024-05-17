@@ -15,10 +15,11 @@ public class WelcomeController {
     }
 	
 	@RequestMapping(value = "/submitForm", method = RequestMethod.POST)
-    public ModelAndView submitForm(@RequestParam("nome") String nome, @RequestParam("time") String time) {
-        ModelAndView modelAndView = new ModelAndView("timee");
-        modelAndView.addObject("nome", nome);
-        modelAndView.addObject("time", time);
+    public ModelAndView submitForm(@RequestParam("dolar") double dolar) {
+        ModelAndView modelAndView = new ModelAndView("conversao");
+        double Conversao = dolar*(5);
+        modelAndView.addObject("dolar", dolar);
+        modelAndView.addObject("real", Conversao);
         return modelAndView;
     }
 	

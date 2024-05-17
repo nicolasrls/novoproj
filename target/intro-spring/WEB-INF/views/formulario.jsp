@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Formulário</title>
+    <title>Conversor</title>
 </head>
 <body>
-    <h2>Preencha o formulário:</h2>
+    <h1>Conversor de moeda</h1>
     <form action="submitForm" method="post">
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome"><br><br>
-        
-        <label for="time">Time:</label>
-        <input type="text" id="time" name="time"><br><br>
-        
-        <input type="submit" value="Enviar">
+        <label for="dolar">Quantidade em dólar:</label>
+        <input type="text" id="dolar" name="dolar"><br><br>
+      
+        <input type="submit" value="Converter">
     </form>
 </body>
 </html>

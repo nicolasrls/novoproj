@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Exibição</title>
+    <title>Resultado da conversão Dólar para Real</title>
 </head>
 <body>
     <h2>${nome} torce para ${time}</h2>
